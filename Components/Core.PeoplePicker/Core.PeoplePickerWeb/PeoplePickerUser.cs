@@ -17,5 +17,8 @@ namespace Contoso.Core.PeoplePickerWeb
         internal string Name;
         [DataMember]
         internal string Email;
+
+        [DataMember]
+        internal string Test;
     }
 }
